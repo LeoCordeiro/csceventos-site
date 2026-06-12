@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CSC Eventos — Hub de Fornecedores para Eventos Corporativos</title>
+<link rel="icon" type="image/png" href="logo.png"/>
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@200;300;400;500&display=swap"/>
+<!-- css -->
+<link rel="stylesheet" href="assets/css/design-system.css"/>
+<!-- head-only js -->
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+</head>
+<body>
+<!-- nav -->
+<nav>
+<a class="nav-logo" href="design-system.html"><img class="nav-logo-img" src="logo.png" alt="CSC Eventos"/></a>
+<ul class="nav-links">
+<li><a href="#features">Sobre</a></li>
+<li><a href="#how">Como Funciona</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+<div class="nav-cta">
+<a href="contato.html" class="btn-nav btn-nav-solid">Solicitar Proposta</a>
+</div>
+<div class="nav-hamburger" id="hamburger"><span></span><span></span><span></span></div>
+</nav>
+<div class="nav-mobile" id="navMobile">
+<ul>
+<li><a href="#features">Sobre</a></li>
+<li><a href="#how">Como Funciona</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+<a href="contato.html" class="btn-nav btn-nav-solid" style="margin-top:20px">Solicitar Proposta</a>
+</div>
+<!-- hero -->
+<section id="hero">
+<canvas id="heroCanvas" width="1920" height="1080" style="width:1920px;height:1080px"></canvas>
+<div class="hero-orb hero-orb-1"></div>
+<div class="hero-orb hero-orb-2"></div>
+<div class="hero-orb hero-orb-3"></div>
+<div class="hero-stars">
+<div class="hero-star hero-star-1"></div>
+<div class="hero-star hero-star-2"></div>
+<div class="hero-star hero-star-3"></div>
+<div class="hero-star hero-star-4"></div>
+<div class="hero-star hero-star-5"></div>
+<div class="hero-star hero-star-6"></div>
+</div>
+<div class="hero-orbits">
+<div class="hero-orbit hero-orbit-1"><div class="hero-orbit-dot"></div></div>
+<div class="hero-orbit hero-orbit-2"><div class="hero-orbit-dot"></div></div>
+<div class="hero-orbit hero-orbit-3"><div class="hero-orbit-dot"></div></div>
+</div>
+<div class="hero-content">
+<div class="hero-eyebrow"><i data-lucide="zap"></i>Hub de Fornecedores para Eventos Corporativos</div>
+<h1 class="hero-title">O evento perfeito começa<br/>com <span class="text-gradient">os fornecedores certos</span>.</h1>
+<p class="hero-subtitle">Intermediamos os melhores fornecedores do mercado para o seu evento corporativo — com condições e preços que você não conseguiria negociando sozinho.</p>
+<div class="hero-ctas">
+<a href="contato.html" class="btn-hero-primary"><i data-lucide="send"></i>Solicitar Proposta</a>
+<a href="#how" class="btn-hero-ghost"><i data-lucide="list-checks"></i>Como Funciona</a>
+</div>
+<div class="hero-metrics">
+<div class="hero-metric"><span class="hero-metric-val">24h</span><span class="hero-metric-label">Resposta da proposta</span></div>
+<div class="hero-metric-sep"></div>
+<div class="hero-metric"><span class="hero-metric-val">+300</span><span class="hero-metric-label">Fornecedores parceiros</span></div>
+<div class="hero-metric-sep"></div>
+<div class="hero-metric"><span class="hero-metric-val">+1000</span><span class="hero-metric-label">Contratos realizados</span></div>
+<div class="hero-metric-sep"></div>
+<div class="hero-metric"><span class="hero-metric-val">1</span><span class="hero-metric-label">Contrato único</span></div>
+</div>
+</div>
+</section>
+<!-- trust -->
+<section id="trust">
+<p class="trust-label" style="margin-bottom:12px">Trabalhamos com os melhores.</p>
+<p style="max-width:540px;margin:0 auto 28px;color:var(--muted);font-size:0.86rem;line-height:1.7;text-align:center">Nossa rede de fornecedores parceiros é selecionada com critério — para garantir que cada evento entregue exatamente o que foi prometido.</p>
+<div class="logo-bar-wrap">
+<div class="logo-track" id="logoTrack">
+<span class="logo-item">Forno de Minas</span>
+<span class="logo-item">Sadia</span>
+<span class="logo-item">BRF</span>
+<span class="logo-item">Ambev</span>
+<span class="logo-item">Localfrio</span>
+<span class="logo-item">Tok&amp;Stok</span>
+<span class="logo-item">Tramontina</span>
+<span class="logo-item">JBL Professional</span>
+<span class="logo-item">Philips</span>
+<span class="logo-item">Samsung Display</span>
+<span class="logo-item">Bose Professional</span>
+<span class="logo-item">Corsair Events</span>
+<span class="logo-item">Forno de Minas</span>
+<span class="logo-item">Sadia</span>
+<span class="logo-item">BRF</span>
+<span class="logo-item">Ambev</span>
+<span class="logo-item">Localfrio</span>
+<span class="logo-item">Tok&amp;Stok</span>
+<span class="logo-item">Tramontina</span>
+<span class="logo-item">JBL Professional</span>
+<span class="logo-item">Philips</span>
+<span class="logo-item">Samsung Display</span>
+<span class="logo-item">Bose Professional</span>
+<span class="logo-item">Corsair Events</span>
+</div>
+</div>
+</section>
+<!-- features -->
+<section class="section" id="features">
+<div class="section-sep"></div>
+<div class="container">
+<div class="section-header">
+<span class="section-label">Por que a CSC Eventos</span>
+<h2>Nossa força está em<br/><span class="text-gradient">quem trabalhamos</span>.</h2>
+<p>Anos de relacionamento com os principais fornecedores do setor nos permitem garantir condições exclusivas, preços estratégicos e prioridade de agenda para os nossos clientes. Você não contrata apenas um intermediador — você acessa uma rede que levou anos para ser construída.</p>
+</div>
+<div class="bento-grid stagger-up active" id="bentoGrid">
+<div class="bento-card reveal-child">
+<div class="bc-grid"></div><div class="bc-shimmer"></div>
+<div class="bc-corner bc-corner-tl"></div><div class="bc-corner bc-corner-br"></div>
+<div class="bc-header"><div class="bc-live-dot"></div><span class="bc-header-title">Condições Comerciais</span><span class="bc-header-tag">Exclusivo</span></div>
+<div class="bc-body">
+<p>Nosso volume de negócios com os fornecedores nos garante condições comerciais exclusivas — repassadas integralmente ao cliente.</p>
+<div class="bento-widget" id="barWidget">
+<div class="bw-status"><span class="bw-status-label">Categorias com condição negociada</span><span class="bw-status-val">9 de 9</span></div>
+<div class="widget-bars" id="barChartWidget">
+<div class="widget-bar" style="height:55%"></div>
+<div class="widget-bar" style="height:69%"></div>
+<div class="widget-bar" style="height:84%"></div>
+<div class="widget-bar" style="height:65%"></div>
+<div class="widget-bar" style="height:48%"></div>
+<div class="widget-bar" style="height:52%"></div>
+<div class="widget-bar" style="height:41%"></div>
+<div class="widget-bar" style="height:57%"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bento-card reveal-child">
+<div class="bc-grid"></div><div class="bc-shimmer"></div>
+<div class="bc-corner bc-corner-tl"></div><div class="bc-corner bc-corner-br"></div>
+<div class="bc-header"><div class="bc-live-dot"></div><span class="bc-header-title">Fornecedores Validados</span><span class="bc-header-tag">Qualidade</span></div>
+<div class="bc-body">
+<p>Trabalhamos apenas com fornecedores que já comprovaram qualidade, pontualidade e profissionalismo em eventos reais.</p>
+<div class="bento-widget">
+<div class="bw-status"><span class="bw-status-label">Taxa de aprovação na rede</span><span class="bw-status-val">98,7%</span></div>
+<div class="widget-donut">
+<svg class="donut-svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="28" fill="none" stroke="rgba(20,184,166,0.1)" stroke-width="8"/><circle cx="36" cy="36" r="28" fill="none" stroke="#14B8A6" stroke-width="8" stroke-dasharray="126 176" stroke-dashoffset="44" stroke-linecap="round" opacity="0.9"/><circle cx="36" cy="36" r="28" fill="none" stroke="#2DD4BF" stroke-width="8" stroke-dasharray="44 176" stroke-dashoffset="-82" stroke-linecap="round" opacity="0.5"/><text x="36" y="39" text-anchor="middle" fill="#2DD4BF" font-family="Outfit" font-size="10" font-weight="300">72%</text></svg>
+<div class="donut-labels">
+<div class="donut-item"><div class="donut-dot" style="background:#14B8A6"></div>Aprovados na rede</div>
+<div class="donut-item"><div class="donut-dot" style="background:#2DD4BF"></div>Em avaliação</div>
+<div class="donut-item"><div class="donut-dot" style="background:rgba(255,255,255,0.15)"></div>Não aprovados</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bento-card reveal-child">
+<div class="bc-grid"></div><div class="bc-shimmer"></div>
+<div class="bc-corner bc-corner-tl"></div><div class="bc-corner bc-corner-br"></div>
+<div class="bc-header"><div class="bc-live-dot"></div><span class="bc-header-title">Contrato Único</span><span class="bc-header-tag">Simplificado</span></div>
+<div class="bc-body">
+<p>Você assina com a CSC Eventos — nós gerenciamos todos os fornecedores, briefings e entregas do início ao fim.</p>
+<div class="bento-widget">
+<div class="bw-status"><span class="bw-status-label">Gerenciado sob</span><span class="bw-status-val">1 contrato</span></div>
+<div class="widget-pipeline" id="pipelineWidget">
+<div class="pipeline-stage"><span class="pipeline-stage-label">Fornecedores</span><div class="pipeline-stage-bar" style="width:90%"></div><span class="pipeline-stage-val">12+</span></div>
+<div class="pipeline-stage"><span class="pipeline-stage-label">Briefings</span><div class="pipeline-stage-bar" style="width:58%"></div><span class="pipeline-stage-val">9</span></div>
+<div class="pipeline-stage"><span class="pipeline-stage-label">Prazos</span><div class="pipeline-stage-bar" style="width:42%"></div><span class="pipeline-stage-val">100%</span></div>
+<div class="pipeline-stage"><span class="pipeline-stage-label">Entregas</span><div class="pipeline-stage-bar" style="width:25%"></div><span class="pipeline-stage-val">100%</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bento-card reveal-child">
+<div class="bc-grid"></div><div class="bc-shimmer"></div>
+<div class="bc-corner bc-corner-tl"></div><div class="bc-corner bc-corner-br"></div>
+<div class="bc-header"><div class="bc-live-dot"></div><span class="bc-header-title">Resposta ao Briefing</span><span class="bc-header-tag">24h</span></div>
+<div class="bc-body">
+<p>Envie o briefing do seu evento e receba uma proposta completa com fornecedores selecionados em até 24 horas úteis.</p>
+<div class="bento-widget">
+<div class="bw-status"><span class="bw-status-label">Tempo médio de resposta</span><span class="bw-status-val">24h</span></div>
+<div class="widget-signals" id="signalWidget">
+<div class="signal-row"><div class="signal-dot"></div>Evento Corporativo A — proposta enviada</div><div class="signal-row"><div class="signal-dot hot"></div>Evento Corporativo B — aguardando aprovação</div><div class="signal-row"><div class="signal-dot"></div>Evento Corporativo C — fornecedores confirmados</div><div class="signal-row"><div class="signal-dot warn"></div>Evento Corporativo D — prazo de resposta hoje</div><div class="signal-row"><div class="signal-dot"></div>Evento Corporativo E — relatório finalizado</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bento-card reveal-child">
+<div class="bc-grid"></div><div class="bc-shimmer"></div>
+<div class="bc-corner bc-corner-tl"></div><div class="bc-corner bc-corner-br"></div>
+<div class="bc-header"><div class="bc-live-dot"></div><span class="bc-header-title">Coordenação no Evento</span><span class="bc-header-tag">Suporte</span></div>
+<div class="bc-body">
+<p>Nossa equipe acompanha a montagem, execução e desmontagem do seu evento, garantindo que tudo aconteça exatamente como planejado — do início ao fim.</p>
+<div class="bento-widget">
+<div class="bw-status"><span class="bw-status-label">Cobertura da equipe</span><span class="bw-status-val">100%</span></div>
+<div class="widget-team">
+<div class="team-row"><div class="team-avatar" style="background:linear-gradient(135deg,#14B8A6,#2DD4BF)">CG</div><span class="team-name">Coordenação Geral</span><div class="team-progress"><div class="team-progress-fill" style="width:92%"></div></div><span class="team-score">100%</span></div>
+<div class="team-row"><div class="team-avatar" style="background:linear-gradient(135deg,#0D9488,#14B8A6)">LG</div><span class="team-name">Logística</span><div class="team-progress"><div class="team-progress-fill" style="width:78%"></div></div><span class="team-score">100%</span></div>
+<div class="team-row"><div class="team-avatar" style="background:linear-gradient(135deg,#5EEAD4,#2DD4BF)">FN</div><span class="team-name">Fornecedores</span><div class="team-progress"><div class="team-progress-fill" style="width:65%"></div></div><span class="team-score">100%</span></div>
+<div class="team-row"><div class="team-avatar" style="background:linear-gradient(135deg,#0D9488,#0F766E)">AT</div><span class="team-name">Atendimento</span><div class="team-progress"><div class="team-progress-fill" style="width:54%"></div></div><span class="team-score">100%</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bento-card reveal-child">
+<div class="bc-grid"></div><div class="bc-shimmer"></div>
+<div class="bc-corner bc-corner-tl"></div><div class="bc-corner bc-corner-br"></div>
+<div class="bc-header"><div class="bc-live-dot"></div><span class="bc-header-title">Relatório Pós-Evento</span><span class="bc-header-tag">Completo</span></div>
+<div class="bc-body">
+<p>Após o evento, você recebe um relatório completo de execução e avaliação de cada fornecedor utilizado — para decisões cada vez mais certeiras nos próximos eventos.</p>
+<div class="bento-widget">
+<div class="bw-status"><span class="bw-status-label">Categorias avaliadas</span><span class="bw-status-val">9 de 9</span></div>
+<div class="widget-integrations">
+<span class="int-badge">Gastronomia</span>
+<span class="int-badge">Mobiliário</span>
+<span class="int-badge">Sonorização</span>
+<span class="int-badge">Iluminação</span>
+<span class="int-badge">Audiovisual</span>
+<span class="int-badge">Beleza e Estética</span>
+<span class="int-badge">Palestrantes</span>
+<span class="int-badge">Transporte</span>
+<span class="int-badge" style="color:var(--accent-light);border-style:dashed">+1</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- how -->
+<section id="how">
+<div class="section-sep"></div>
+<div class="how-sticky" id="howSticky">
+<div class="how-bg-orb how-bg-orb-1" id="howOrb1" style="transform:translate(30px,-20px)"></div>
+<div class="how-bg-orb how-bg-orb-2" id="howOrb2" style="transform:translate(-30px,20px)"></div>
+<div class="how-bg-dots"></div>
+<div class="how-mobile-header">
+<span class="section-label">Como Funciona</span>
+<h2>Do briefing à entrega — <span class="text-gradient">sem complicação</span></h2>
+</div>
+<div class="how-inner">
+<div class="how-left">
+<span class="section-label" style="opacity:1">Como Funciona</span>
+<div class="how-step-counter">
+<div class="how-big-num" id="howBigNum">03</div>
+<div class="how-big-num-fill" id="howBigNumFill">03</div>
+</div>
+<div class="how-left-label visible" id="howLabel">Passo 3 de 4</div>
+<div class="how-left-title visible" id="howTitle">Você aprova e a gente executa</div>
+<div class="how-progress"><div class="how-progress-fill" id="howProgressFill" style="width:65.7597%"></div></div>
+<div class="how-dots">
+<div class="how-dot" data-step="0"></div>
+<div class="how-dot" data-step="1"></div>
+<div class="how-dot active" data-step="2"></div>
+<div class="how-dot" data-step="3"></div>
+</div>
+</div>
+<div class="how-right">
+<div class="how-panel behind" data-panel="0">
+<div class="hp-grid"></div><div class="hp-shimmer"></div>
+<div class="hp-corner hp-corner-tl"></div><div class="hp-corner hp-corner-tr"></div><div class="hp-corner hp-corner-br"></div>
+<div class="hp-header"><div class="hp-live-dot"></div><span class="hp-header-title">Briefing</span><span class="hp-header-badge">Passo 1</span></div>
+<div class="hp-body">
+<p>Tipo, data, local, número de convidados e serviços necessários. Pode ser por WhatsApp, e-mail ou pelo formulário do site.</p>
+<div class="how-panel-widget">
+<div class="hw-status-row"><span class="hw-status-label">Campos do briefing</span><span class="hw-status-val">6 / 8 preenchidos</span></div>
+<div class="hw-integrations">
+<span class="hw-int-pill glow"><span class="hw-status-dot on"></span>Tipo de evento</span>
+<span class="hw-int-pill glow"><span class="hw-status-dot on"></span>Data</span>
+<span class="hw-int-pill glow"><span class="hw-status-dot on"></span>Local</span>
+<span class="hw-int-pill glow"><span class="hw-status-dot on"></span>Nº de convidados</span>
+<span class="hw-int-pill glow"><span class="hw-status-dot on"></span>Serviços necessários</span>
+<span class="hw-int-pill glow"><span class="hw-status-dot on"></span>Canal de contato</span>
+<span class="hw-int-pill"><span class="hw-status-dot off"></span>Orçamento</span>
+<span class="hw-int-pill"><span class="hw-status-dot off"></span>Observações</span>
+<span class="hw-int-pill" style="color:var(--accent-light);border-style:dashed">+ outros detalhes</span>
+</div>
+</div>
+</div>
+</div>
+<div class="how-panel behind" data-panel="1">
+<div class="hp-grid"></div><div class="hp-shimmer"></div>
+<div class="hp-corner hp-corner-tl"></div><div class="hp-corner hp-corner-tr"></div><div class="hp-corner hp-corner-br"></div>
+<div class="hp-header"><div class="hp-live-dot"></div><span class="hp-header-title">Proposta</span><span class="hp-header-badge">Até 24h</span></div>
+<div class="hp-body">
+<p>Selecionamos os fornecedores ideais da nossa rede, negociamos as melhores condições e enviamos uma proposta detalhada.</p>
+<div class="how-panel-widget">
+<div class="hw-status-row"><span class="hw-status-label">Tempo de resposta</span><span class="hw-status-val">Até 24h úteis</span></div>
+<div class="hw-funnel" id="hwFunnel">
+<div class="hw-funnel-row"><span class="hw-funnel-label">Rede</span><div class="hw-funnel-bar-wrap"><div class="hw-funnel-bar" style="width:92%"></div></div><span class="hw-funnel-pct">100%</span><span class="hw-funnel-val">12+</span></div>
+<div class="hw-funnel-row"><span class="hw-funnel-label">Avaliados</span><div class="hw-funnel-bar-wrap"><div class="hw-funnel-bar" style="width:68%"></div></div><span class="hw-funnel-pct">67%</span><span class="hw-funnel-val">8</span></div>
+<div class="hw-funnel-row"><span class="hw-funnel-label">Selecionados</span><div class="hw-funnel-bar-wrap"><div class="hw-funnel-bar" style="width:42%"></div></div><span class="hw-funnel-pct">31%</span><span class="hw-funnel-val">5</span></div>
+<div class="hw-funnel-row"><span class="hw-funnel-label">Na proposta</span><div class="hw-funnel-bar-wrap"><div class="hw-funnel-bar" style="width:24%"></div></div><span class="hw-funnel-pct">12%</span><span class="hw-funnel-val">3</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="how-panel active" data-panel="2">
+<div class="hp-grid"></div><div class="hp-shimmer"></div>
+<div class="hp-corner hp-corner-tl"></div><div class="hp-corner hp-corner-tr"></div><div class="hp-corner hp-corner-br"></div>
+<div class="hp-header"><div class="hp-live-dot"></div><span class="hp-header-title">Execução</span><span class="hp-header-badge">Coordenação</span></div>
+<div class="hp-body">
+<p>Com a proposta aprovada, assumimos a coordenação completa — briefings, prazos, montagem e suporte no dia do evento.</p>
+<div class="how-panel-widget">
+<div class="hw-status-row"><span class="hw-status-label">Status</span><span class="hw-status-val">87% — Em andamento</span></div>
+<div class="hw-gauge">
+<div class="hw-gauge-ring">
+<svg viewBox="0 0 72 72"><circle class="ring-bg" cx="36" cy="36" r="30"/><circle class="ring-fill drawn" id="hwGaugeRing" cx="36" cy="36" r="30"/></svg>
+<div class="hw-gauge-val">87%</div>
+</div>
+<div class="hw-gauge-meta">
+<div class="hw-gauge-row"><div class="hw-gauge-dot" style="background:#2DD4BF"></div>Fornecedores confirmados</div>
+<div class="hw-gauge-row"><div class="hw-gauge-dot" style="background:#14B8A6"></div>Cronograma definido</div>
+<div class="hw-gauge-row"><div class="hw-gauge-dot" style="background:rgba(255,255,255,0.15)"></div>Equipe de coordenação alocada</div>
+<div class="hw-gauge-row"><div class="hw-gauge-dot" style="background:#F59E0B"></div>Nenhum ponto de atenção identificado</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="how-panel" data-panel="3">
+<div class="hp-grid"></div><div class="hp-shimmer"></div>
+<div class="hp-corner hp-corner-tl"></div><div class="hp-corner hp-corner-tr"></div><div class="hp-corner hp-corner-br"></div>
+<div class="hp-header"><div class="hp-live-dot"></div><span class="hp-header-title">Relatório</span><span class="hp-header-badge">Pós-evento</span></div>
+<div class="hp-body">
+<p>Após o evento, enviamos um relatório completo de execução e avaliação dos fornecedores utilizados.</p>
+<div class="how-panel-widget">
+<div class="hw-status-row"><span class="hw-status-label">Status do relatório</span><span class="hw-status-val">Enviado ao cliente</span></div>
+<div class="hw-actions">
+<div class="hw-action-row"><div class="hw-action-dot live"></div><span class="hw-action-text">Relatório de execução finalizado</span><span class="hw-action-time">concluído</span></div>
+<div class="hw-action-row"><div class="hw-action-dot live"></div><span class="hw-action-text">Avaliação de fornecedores registrada</span><span class="hw-action-time">concluído</span></div>
+<div class="hw-action-row"><div class="hw-action-dot done"></div><span class="hw-action-text">Feedback do evento compilado</span><span class="hw-action-time">concluído</span></div>
+<div class="hw-action-row"><div class="hw-action-dot done"></div><span class="hw-action-text">Sugestões para o próximo evento enviadas</span><span class="hw-action-time">concluído</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- showcase -->
+<section class="section section-alt" id="showcase">
+<div class="section-sep"></div>
+<div class="container showcase-container">
+<div class="section-header reveal active">
+<span class="section-label">Nossos Serviços</span>
+<h2>Tudo que seu evento precisa,<br/><span class="text-gradient">em um só lugar</span></h2>
+<p>Da gastronomia à logística, coordenamos cada fornecedor para que você não precise lidar com múltiplos contatos.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-10 stagger-up active">
+<div class="reveal-child" style="border-top:1px solid var(--border-s);padding-top:20px">
+<h3 style="margin-bottom:8px">Gastronomia e Buffet</h3>
+<p>Coffee break, almoços, jantares, finger foods e open bar</p>
+</div>
+<div class="reveal-child" style="border-top:1px solid var(--border-s);padding-top:20px">
+<h3 style="margin-bottom:8px">Mobiliário</h3>
+<p>Cadeiras, mesas, poltronas, lounges, bistrôs e palcos</p>
+</div>
+<div class="reveal-child" style="border-top:1px solid var(--border-s);padding-top:20px">
+<h3 style="margin-bottom:8px">Sonorização</h3>
+<p>Sistemas de som, microfones e técnicos especializados</p>
+</div>
+<div class="reveal-child" style="border-top:1px solid var(--border-s);padding-top:20px">
+<h3 style="margin-bottom:8px">Iluminação</h3>
+<p>Iluminação cênica, ambiental e de palco</p>
+</div>
+<div class="reveal-child" style="border-top:1px solid var(--border-s);padding-top:20px">
+<h3 style="margin-bottom:8px">Audiovisual</h3>
+<p>Projetores, telões, TVs e suporte técnico</p>
+</div>
+<div class="reveal-child" style="border-top:1px solid var(--border-s);padding-top:20px">
+<h3 style="margin-bottom:8px">Beleza e Estética</h3>
+<p>Maquiagem e hair styling para palestrantes e VIPs</p>
+</div>
+<div class="reveal-child" style="border-top:1px solid var(--border-s);padding-top:20px">
+<h3 style="margin-bottom:8px">Palestrantes</h3>
+<p>Facilitadores e instrutores para eventos de capacitação</p>
+</div>
+<div class="reveal-child" style="border-top:1px solid var(--border-s);padding-top:20px">
+<h3 style="margin-bottom:8px">Transporte Executivo</h3>
+<p>Transfers via parceiros especializados</p>
+</div>
+<div class="reveal-child" style="border-top:1px solid var(--border-s);padding-top:20px">
+<h3 style="margin-bottom:8px">Logística de Materiais</h3>
+<p>Transporte de estandes e equipamentos</p>
+</div>
+</div>
+</div>
+</section>
+<!-- cta-section -->
+<section id="cta-section">
+<div class="container" style="position:relative;z-index:1">
+<div class="reveal active">
+<span class="section-label">Vamos organizar seu evento</span>
+<h2 class="cta-title">Seu próximo evento merece<br/><span class="text-gradient">os melhores fornecedores</span>.</h2>
+<p class="cta-sub">Fale com a CSC Eventos e descubra como conseguir condições que você não encontraria negociando diretamente — com a segurança de quem já fez centenas de eventos acontecerem.</p>
+<div class="cta-buttons">
+<a href="contato.html" class="btn-cta-primary"><i data-lucide="rocket"></i>SOLICITAR PROPOSTA</a>
+<a href="contato.html" class="btn-cta-ghost"><i data-lucide="calendar"></i>Agendar Reunião</a>
+</div>
+<p style="margin-top:24px;color:var(--muted);font-size:0.8rem;letter-spacing:0.02em">Proposta em até 24 horas · Fornecedores validados e pré-selecionados · Um único contrato para todo o evento</p>
+</div>
+</div>
+</section>
+<!-- footer -->
+<footer style="position:relative">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<div class="nav-logo" style="margin-bottom:0"><img class="nav-logo-img" src="logo.png" alt="CSC Eventos"/></div>
+<p>Hub de intermediação de fornecedores para eventos corporativos. Conectamos sua empresa às melhores condições do mercado, com um único ponto de contato do briefing à entrega.</p>
+</div>
+<div>
+<p class="footer-col-title">Diferenciais</p>
+<ul class="footer-links">
+<li><a href="#features">Condições Comerciais</a></li>
+<li><a href="#features">Fornecedores Validados</a></li>
+<li><a href="#features">Contrato Único</a></li>
+<li><a href="#features">Resposta ao Briefing</a></li>
+<li><a href="#features">Coordenação no Evento</a></li>
+<li><a href="#features">Relatório Pós-Evento</a></li>
+</ul>
+</div>
+<div>
+<p class="footer-col-title">Empresa</p>
+<ul class="footer-links">
+<li><a href="#hero">Início</a></li>
+<li><a href="#features">Diferenciais</a></li>
+<li><a href="#showcase">Serviços</a></li>
+<li><a href="#trust">Fornecedores</a></li>
+<li><a href="#how">Como Funciona</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+</div>
+<div>
+<p class="footer-col-title">Legal</p>
+<ul class="footer-links">
+<li><a href="#">Política de Privacidade</a></li>
+<li><a href="#">Política de Repasse</a></li>
+<li><a href="#">Termos de Serviço</a></li>
+<li><a href="#">Segurança</a></li>
+<li><a href="#">Política de Cookies</a></li>
+<li><a href="#">LGPD</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span class="footer-copy">© <span id="year">2026</span> CSC Eventos · csceventos.com.br · Guarulhos, SP · CNPJ 28.220.314/0001-19</span>
+<div class="footer-socials">
+<a class="social-link" href="#"><i data-lucide="twitter"></i></a>
+<a class="social-link" href="#"><i data-lucide="linkedin"></i></a>
+<a class="social-link" href="#"><i data-lucide="github"></i></a>
+<a class="social-link" href="#"><i data-lucide="youtube"></i></a>
+</div>
+</div>
+</div>
+</footer>
+<!-- js -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="assets/js/interactions.js"></script>
+<script>lucide.createIcons();</script>
+</body>
+</html>
